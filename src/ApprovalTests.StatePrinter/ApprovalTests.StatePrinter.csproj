@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net461</TargetFrameworks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Utilities for approval object using StatePrinter (https://github.com/kbilsted/StatePrinter).
+For example: StatePrinterApprovals.Verify(turtle);</Description>
+    <AssemblyInformationalVersion>$(Version)</AssemblyInformationalVersion>
+    <Authors>Llewellyn Falco &amp; Dan Gilkerson</Authors>
+    <PackageLicenseUrl>https://github.com/approvals/ApprovalTests.Net/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright $([System.DateTime]::UtcNow.ToString(yyyy)) Llewellyn Falco &amp; Dan Gilkerson. All rights reserved</Copyright>
+    <PackageTags>StatePrinter Approvals ApprovalTests ApprovalTest Test Verification Verify Approve Testing</PackageTags>
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/36907</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/approvals/ApprovalTests.Net.StatePrinter</PackageProjectUrl>
+    <PackageOutputPath>$(SolutionDir)nuget_packages</PackageOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ApprovalTests" Version="3.0.18" />
+    <PackageReference Include="StatePrinter" Version="3.0.1" />
+  </ItemGroup>
+</Project>
