@@ -1,6 +1,7 @@
 ﻿using ApprovalTests.StatePrinter;
 using Xunit;
 
+#region usage
 public class StatePrinterTests
 {
     [Fact]
@@ -11,6 +12,9 @@ public class StatePrinterTests
         StatePrinterApprovals.Verify(turtle);
     }
 }
+#endregion
+
+#region model
 
 public class Turtle
 {
@@ -23,3 +27,4 @@ public class Turtle
         On = onTurtle;
     }
 }
+#endregion

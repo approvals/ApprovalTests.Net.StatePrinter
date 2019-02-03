@@ -14,40 +14,11 @@ https://nuget.org/packages/ApprovalTests.StatePrinter/
 
 Given a model:
 
-<!-- snippet: model -->
-```cs
-public class Turtle
-{
-    public string Name { get; set; }
-    public Turtle On { get; set; }
-
-    public Turtle(string name, Turtle onTurtle)
-    {
-        Name = name;
-        On = onTurtle;
-    }
-}
-```
-<sup>[snippet source](/src/ApprovalTests.StatePrinter.Tests/StatePrinterTests.cs#L17-L30)</sup>
-<!-- endsnippet -->
+snippet: model
 
 That is verified:
 
-<!-- snippet: usage -->
-```cs
-public class StatePrinterTests
-{
-    [Fact]
-    public void TestVerifyCircleReferences()
-    {
-        var turtle = new Turtle("jim", new Turtle("kasper", new Turtle("llewellyn", null)));
-        turtle.On.On.On = turtle;
-        StatePrinterApprovals.Verify(turtle);
-    }
-}
-```
-<sup>[snippet source](/src/ApprovalTests.StatePrinter.Tests/StatePrinterTests.cs#L4-L15)</sup>
-<!-- endsnippet -->
+snippet: usage
 
 Will result in this as an approved file:
 
