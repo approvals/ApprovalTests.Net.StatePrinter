@@ -28,7 +28,7 @@ public class Turtle
     }
 }
 ```
-<sup>[snippet source](/src/ApprovalTests.StatePrinter.Tests/StatePrinterTests.cs#L17-L30)</sup>
+<sup>[snippet source](/src/ApprovalTests.StatePrinter.Tests/StatePrinterTests.cs#L21-L34)</sup>
 <!-- endsnippet -->
 
 That is verified:
@@ -40,13 +40,15 @@ public class StatePrinterTests
     [Fact]
     public void TestVerifyCircleReferences()
     {
-        var turtle = new Turtle("jim", new Turtle("kasper", new Turtle("llewellyn", null)));
+        var turtle = new Turtle("jim",
+            new Turtle("kasper",
+                new Turtle("llewellyn", null)));
         turtle.On.On.On = turtle;
         StatePrinterApprovals.Verify(turtle);
     }
 }
 ```
-<sup>[snippet source](/src/ApprovalTests.StatePrinter.Tests/StatePrinterTests.cs#L4-L15)</sup>
+<sup>[snippet source](/src/ApprovalTests.StatePrinter.Tests/StatePrinterTests.cs#L4-L19)</sup>
 <!-- endsnippet -->
 
 Will result in this as an approved file:

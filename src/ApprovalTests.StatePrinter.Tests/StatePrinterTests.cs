@@ -2,16 +2,20 @@
 using Xunit;
 
 #region usage
+
 public class StatePrinterTests
 {
     [Fact]
     public void TestVerifyCircleReferences()
     {
-        var turtle = new Turtle("jim", new Turtle("kasper", new Turtle("llewellyn", null)));
+        var turtle = new Turtle("jim",
+            new Turtle("kasper",
+                new Turtle("llewellyn", null)));
         turtle.On.On.On = turtle;
         StatePrinterApprovals.Verify(turtle);
     }
 }
+
 #endregion
 
 #region model
