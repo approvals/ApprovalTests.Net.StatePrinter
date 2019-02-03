@@ -1,9 +1,6 @@
 os: windows
 language: csharp
 solution: src/ApprovalTests.StatePrinter.sln
-sudo: required
-mono: none
-dotnet: 2.2
 script:
   - dotnet build src/ApprovalTests.StatePrinter.sln
   - dotnet test --no-build
