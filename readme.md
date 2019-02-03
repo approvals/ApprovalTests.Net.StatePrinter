@@ -1,4 +1,4 @@
-# <img src="https://avatars3.githubusercontent.com/u/36907" height="40px"> ApprovalTests.StatePrinter
+# <img src="https://avatars3.githubusercontent.com/u/36907" height="30px"> ApprovalTests.StatePrinter
 
 Extends [ApprovalTests](https://github.com/approvals/ApprovalTests.Net) to allow simple approval of complex models using [StatePrinter](https://github.com/kbilsted/StatePrinter).
 
