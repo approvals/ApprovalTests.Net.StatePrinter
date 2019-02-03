@@ -8,7 +8,7 @@
 For example: StatePrinterApprovals.Verify(turtle);</Description>
     <AssemblyInformationalVersion>$(Version)</AssemblyInformationalVersion>
     <Authors>Llewellyn Falco &amp; Dan Gilkerson</Authors>
-    <PackageLicenseUrl>https://github.com/approvals/ApprovalTests.Net.StatePrinter/blob/master/license.txt</PackageLicenseUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Copyright>Copyright $([System.DateTime]::UtcNow.ToString(yyyy)) Llewellyn Falco &amp; Dan Gilkerson. All rights reserved</Copyright>
     <PackageTags>StatePrinter Approvals ApprovalTests ApprovalTest Test Verification Verify Approve Testing</PackageTags>
