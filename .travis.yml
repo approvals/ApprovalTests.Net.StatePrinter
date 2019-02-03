@@ -1,6 +1,0 @@
-os: windows
-language: csharp
-solution: src/ApprovalTests.StatePrinter.sln
-script:
-  - dotnet build src/ApprovalTests.StatePrinter.sln
-  - dotnet test --no-build

@@ -68,3 +68,9 @@ Root = new Turtle(), ref: 0
     }
 }
 ```
+
+
+## Links
+
+ * NuGet: https://nuget.org/packages/ApprovalTests.StatePrinter/
+ * Build: [![Build Status](https://dev.azure.com/approvals/ApprovalTests.Net.StatePrinter/_apis/build/status/approvals.ApprovalTests.Net.StatePrinter?branchName=master)](https://dev.azure.com/approvals/ApprovalTests.Net.StatePrinter/_build/latest?definitionId=1&branchName=master)
