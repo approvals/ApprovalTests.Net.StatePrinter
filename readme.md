@@ -28,7 +28,7 @@ public class Turtle
     }
 }
 ```
-<sup>[snippet source](/src/ApprovalTests.StatePrinter.Tests/StatePrinterTests.cs#L21-L34)</sup>
+<sup>[snippet source](/src/Tests/StatePrinterTests.cs#L21-L34)</sup>
 <!-- endsnippet -->
 
 That is verified:
@@ -48,7 +48,7 @@ public class StatePrinterTests
     }
 }
 ```
-<sup>[snippet source](/src/ApprovalTests.StatePrinter.Tests/StatePrinterTests.cs#L4-L19)</sup>
+<sup>[snippet source](/src/Tests/StatePrinterTests.cs#L4-L19)</sup>
 <!-- endsnippet -->
 
 Will result in this as an approved file:
