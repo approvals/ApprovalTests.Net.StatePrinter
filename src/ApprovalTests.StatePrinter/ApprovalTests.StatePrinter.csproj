@@ -22,6 +22,6 @@ For example: StatePrinterApprovals.Verify(turtle);</Description>
   <ItemGroup>
     <PackageReference Include="ApprovalTests" Version="4.4.0" />
     <PackageReference Include="StatePrinter" Version="3.0.1" />
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta2-19554-01" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
   </ItemGroup>
 </Project>
